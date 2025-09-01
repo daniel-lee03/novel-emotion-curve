@@ -1,1 +1,6 @@
-streamlit
+streamlit>=1.36.0
+plotly>=5.22.0
+transformers>=4.43.4
+sentencepiece>=0.2.0
+protobuf>=3.20.3
+torch        # CPU 전용 설치는 따로: pip install --index-url https://download.pytorch.org/whl/cpu torch
